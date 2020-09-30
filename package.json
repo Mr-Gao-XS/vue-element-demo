@@ -1,0 +1,45 @@
+{
+  "name": "tmm-mall",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build --dest build/dist",
+    "test": "vue-cli-service build --mode test --dest build/test --target app --dashboard",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "axios": "^0.19.2",
+    "better-calc": "^1.1.3",
+    "core-js": "3.6.4",
+    "dayjs": "^1.8.24",
+    "element-ui": "^2.13.1",
+    "js-calculation": "^2.0.5",
+    "lodash": "^4.17.15",
+    "qs": "^6.9.3",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.17.0",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.1.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-plugin-eslint": "^4.3.0",
+    "@vue/cli-service": "^4.3.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "copy-text-to-clipboard": "^2.2.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
+    "style-resources-loader": "^1.3.3",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
